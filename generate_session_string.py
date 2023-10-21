@@ -16,9 +16,9 @@ async def main():
     phone_number = input('Enter phone number with country code prefix: ')
 
     user_bot = Client(
-        name='User-bot',
-        api_id=API_ID,
-        api_hash=API_HASH,
+        name='Mrtelegramaprbot',
+        api_id=21102617,
+        api_hash=31de0d24a6b8048c48730bc420f4b70c,
         phone_number=phone_number,
         in_memory=True
     )
